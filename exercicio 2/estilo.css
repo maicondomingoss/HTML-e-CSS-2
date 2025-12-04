@@ -10,8 +10,20 @@ header > h1{
     text-align: center;
     padding-top: 70px;
     font-size: 5em;
+    text-shadow: 1px 1px 2px white;
 }
 header > p{
     text-align: center;
     font-size: 20px;
+    background-color: black;
+    margin-top: -10px;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px white;
+}
+header p > a {
+    text-decoration: none;
+    color: white;
+}
+.p1{
+    font-size: 6em;
 }
