@@ -11,6 +11,7 @@ header > h1{
     padding-top: 70px;
     font-size: 5em;
     text-shadow: 1px 1px 2px white;
+    text-transform: uppercase;
 }
 header > p{
     text-align: center;
@@ -19,11 +20,69 @@ header > p{
     margin-top: -10px;
     text-decoration: none;
     text-shadow: 1px 1px 2px white;
+    padding-top: 10px;
+    font-weight: bolder;
 }
 header p > a {
     text-decoration: none;
     color: white;
 }
-.p1{
-    font-size: 6em;
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section.normal{
+    color: black;
+    background-color: white;
+}
+section.imagem1{
+    background-color: sandybrown;
+    color: white;
+    background-image: url(imagens/joaninha.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+}
+section.imagem2{
+    background-color: sandybrown;
+    color: white;
+    background-image: url(imagens/escrita.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.692);
+    width: 400px;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html, body{
+    min-height: 100%;
+}
+a:hover{
+    text-decoration: underline;
+    color:steelblue;
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration:none;
+    
+}
+footer a{
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
 }
