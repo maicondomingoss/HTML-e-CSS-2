@@ -1,2 +1,20 @@
 @charset "UTF-8";
 /*estilos gerais para o site */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #233eff;
+    background-size: contain;
+    background-repeat: no-repeat;
+ }
+ h1{
+    color: white;
+    text-shadow: 3px 3px 0px #121f85;
+    text-align: center;
+    pad: 10px;
+ }
